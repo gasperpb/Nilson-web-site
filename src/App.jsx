@@ -1,16 +1,16 @@
-//import './App.css'
-import Header from './components/Header'
+import Navbar from './components/Navbar';
+import SlickCarousel from './components/SlickCarousel';
 
 function App() {
-
-
   return (
-    <>
-
-<Header />
-    
-    </>
-  )
+    <div>
+      <SlickCarousel /> {/* SlickCarousel component */}
+      <Navbar /> {/* Navbar component */}
+      <div className="pt-16"> {/* Adiciona espaçamento para evitar sobreposição */}
+        {/* Outros componentes ou conteúdo */}
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
