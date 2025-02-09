@@ -1,5 +1,5 @@
 
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import SlickCarousel from './components/SlickCarousel';
 import ImageCarousel from './components/ImageCarousel';
 import FloatingIcon from './components/FloatingIcon';
