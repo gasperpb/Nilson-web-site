@@ -11,28 +11,28 @@ const ProductCarousel = () => {
       price: "R$ 59,90",
       discountPrice: "R$ 56,91",
       discount: "5% no PIX",
-      image: "https://cdn.awsli.com.br/135x135/679/679489/produto/62548680/30f58e704e.jpg", // Substitua por imagens reais
+      image: "https://cdn.awsli.com.br/2500x2500/679/679489/produto/62548680/13-186fd36c6d.jpg", // Substitua por imagens reais
     },
     {
       name: "Camisa Universitária Fisioterapia - Meio Sonho",
       price: "R$ 59,90",
       discountPrice: "R$ 56,91",
       discount: "5% no PIX",
-      image: "https://cdn.awsli.com.br/135x135/679/679489/produto/62548680/30f58e704e.jpg",
+      image: "https://cdn.awsli.com.br/2500x2500/679/679489/produto/62548680/13-186fd36c6d.jpg",
     },
     {
       name: "Camisa Universitária Biomedicina - Bioanálise",
       price: "R$ 59,90",
       discountPrice: "R$ 56,91",
       discount: "5% no PIX",
-      image: "https://via.placeholder.com/200",
+      image: "https://cdn.awsli.com.br/2500x2500/679/679489/produto/62548680/13-186fd36c6d.jpg",
     },
     {
       name: "Camisa Universitária Pedagogia - Princípios",
       price: "R$ 59,90",
       discountPrice: "R$ 56,91",
       discount: "5% no PIX",
-      image: "https://via.placeholder.com/200",
+      image: "https://cdn.awsli.com.br/2500x2500/679/679489/produto/62548680/13-186fd36c6d.jpg",
     },
     {
       name: "Camisa Universitária Odontologia - Dentada Violenta",
