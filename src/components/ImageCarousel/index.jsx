@@ -16,16 +16,16 @@ const ImageCarousel = () => {
     <div className="relative z-50">
       <Slider {...settings}>
         <div className="p-4">
-          <img src="https://via.placeholder.com/800x400" alt="Imagem 1" className="w-full h-auto" />
+          <img src="public/img/ciclismo_verde.png" alt="Imagem 1" className="elative m-4 w-[230px] h-[324px] cursor-pointer group" />
         </div>
         <div className="p-4">
-          <img src="https://via.placeholder.com/800x400" alt="Imagem 2" className="w-full h-auto" />
+          <img src="public/img/ciclismo_azul.png" alt="Imagem 2" className="elative m-4 w-[230px] h-[324px] cursor-pointer group" />
         </div>
         <div className="p-4">
-          <img src="https://via.placeholder.com/800x400" alt="Imagem 3" className="w-full h-auto" />
+          <img src="public/img/ciclismo_verde.png" alt="Imagem 3" className="elative m-4 w-[230px] h-[324px] cursor-pointer group" />
         </div>
         <div className="p-4">
-          <img src="https://via.placeholder.com/800x400" alt="Imagem 4" className="w-full h-auto" />
+          <img src="public/img/ciclismo_azul.png" alt="Imagem 4" className="elative m-4 w-[230px] h-[324px] cursor-pointer group" />
         </div>
       </Slider>
     </div>
