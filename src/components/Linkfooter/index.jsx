@@ -111,7 +111,7 @@ const LinksFooter = () => {
         <div className="text-center text-sm text-gray-400">
           Copyright © 2023 Feito por{" "}
           <a
-            href="https://github.com/Achilles-dev"
+            href="https://achillesdev.com.br/" // Substitua pelo link real, se houver
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-500 hover:underline"
