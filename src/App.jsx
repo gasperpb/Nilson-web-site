@@ -12,7 +12,6 @@ import ProductCarousel from './components/Produtos';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Se estiver usando react-router-dom v5 ou anterior
 //import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Categorias from './pages/categorias';
 import CategoriaDetalhe from './pages/CategoriaDetalhe';
 // Importe outros componentes de página
 
@@ -34,7 +33,6 @@ function App() {
                 <About/> {/* About component */}
               </>
             } />
-            <Route path="/categorias" element={<Categorias />} />
             <Route path="/categorias/:categoria" element={<CategoriaDetalhe />} />
             {/* Adicione outras rotas conforme necessário */}
             <Route path="/sobre" element={<About />} />
