@@ -1,18 +1,19 @@
-import Navbar from './components/navbar';
-import SlickCarousel from './components/SlickCarousel';
-import ImageCarousel from './components/ImageCarousel';
-import FloatingIcon from './components/FloatingIcon';
-import Vetor from './components/Vetores';
-import ContactForm from './components/Contact';
-import About from './components/about';
-//import Footer from './components/footer';
-import LinksFooter from './components/Linkfooter';
-import ProductCarousel from './components/Produtos';
+import Navbar from './pages/navbar';
+import SlickCarousel from './pages/SlickCarousel';
+import ImageCarousel from './pages/ImageCarousel';
+import FloatingIcon from './pages/FloatingIcon';
+import Vetor from './pages/Vetores';
+import ContactForm from './pages/Contact';
+import About from './pages/about';
+//import Footer from './pages/footer';
+import LinksFooter from './pages/Linkfooter';
+import ProductCarousel from './pages/Produtos';
 // Se estiver usando react-router-dom v6+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Se estiver usando react-router-dom v5 ou anterior
 //import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import CategoriaDetalhe from './pages/CategoriaDetalhe';
+import Servicos from './pages/Servicos';
 // Importe outros componentes de página
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <FloatingIcon />
                 <Vetor /> {/* Vetor component */} 
                 <ContactForm /> {/* ContactForm component */}
+                <Servicos />
                 <About/> {/* About component */}
               </>
             } />
